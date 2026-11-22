@@ -10,12 +10,16 @@
     <div class="flex items-center gap-1">
         <img src="images/icon-comments.svg" alt="">
 
-        <p class="font-semibold text-xs text-[#2A89EF] underline underline-offset-2 cursor-pointer">
-            2 Comentários
+        <p 
+            class="font-semibold text-xs text-[#2A89EF] underline underline-offset-2 cursor-pointer"
+            (click)="openTaskCommentsModal()"
+            > 2 Comentários
         </p>
 
-        <p class="font-semibold text-xs text-[#2A89EF] underline underline-offset-2 cursor-pointer ml-auto">
-            Editar
+        <p 
+            class="font-semibold text-xs text-[#2A89EF] underline underline-offset-2 cursor-pointer ml-auto"
+            (click)="openEditTaskModal()"
+            > Editar
         </p>
     </div>
 </div>
